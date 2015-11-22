@@ -15,7 +15,7 @@ Wellcome to FlexiTags for Android. This custom view shows tags which can be conf
     
 Add below dependency also.
 
-    compile 'com.github.mskurt:NeverEmptyListView:v1.0.1' 
+    compile 'com.github.mskurt:FlexiTags:v1.0.0'
 
 2)Add the FlexiTags to your layout xml. You must use features which are belong to FlexiTags with `custom` namespace. It is recommended to use **square size image** for **tagIcon**. 
 
