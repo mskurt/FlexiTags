@@ -2,7 +2,7 @@
 
 Wellcome to FlexiTags for Android. This custom view shows tags which can be configured easily. You give a string list and FlexiTags convert them to tag views. It adds them side by side and if there isn't enough width to add next tag, it continues with next line. Flexi word comes from this feature. You can CRUD tags at runtime and you can group them. All visual features are customizable including group appearances. You can either set a background and icon for all tags in FLexiTags or set different backgrounds and icons for different groups of tag. Tags can be clickable. Set a tag click listener to flexitags and when a tag clicked you can catch it.(Your minimum sdk should be 15 and higher)
 
-![alt tag](https://github.com/mhmtsdtkrt/NeverEmptyListView/blob/master/demo/src/main/res/preview/preview.png?raw=true)
+![alt tag](https://github.com/mskurt/FlexiTags/blob/master/demo/src/main/res/preview/preview.jpg?raw=true)
 
 ## Usage
 
@@ -162,34 +162,7 @@ flexiTags.refresh();
 ## FlexiTags Customizing
 FlexiTags is fully customizable. You can use below feature list.
 
-``` java
-neverEmptyListView.notifyDataSetChanged(YOUR_ADAPTER);
-```
-
-4)You can set a click listener for holder to do anything.
-
-
-
-6)If you need the listview at runtime (NeverEmptyListView is a custom view which contains a listview), you can get it like below.
-
-``` java
-neverEmptyListView.getListview();
-```
-For example, you can get the listview and setOnItemClickListener to it.
-
-``` java
-neverEmptyListView.getListview().setOnItemClickListener(new AdapterView.OnItemClickListener() {
-     @Override
-     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                
-    }
-});
-```
-
-## Holder View Customizing
-Holder view is mostly customizable. You can use below feature list.
-
-![alt tag](https://github.com/mhmtsdtkrt/NeverEmptyListView/blob/master/demo/src/main/res/preview/holder_features.png?raw=true)
+![alt tag](https://github.com/mskurt/FlexiTags/blob/master/demo/src/main/res/preview/features.jpg?raw=true)
 
     tagBackground: color or drawable reference
     tagIcon : color or drawable reference
