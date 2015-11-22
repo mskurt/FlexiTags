@@ -14,7 +14,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final FlexiTags flexiTags=(FlexiTags)findViewById(R.id.flexitags);
+        FlexiTags flexiTags=(FlexiTags)findViewById(R.id.flexitags);
         flexiTags.addTagsFromStringArray(new String[]{"Android", "Java", "Go", "Objective-C", "Php",
                 "JavaScript", "Mysql", "Css", "Html", "Json", "Ruby", "Xml", "Linux", "Node.js", "Eclipse",
                 "Android Studio", "Multithreading", "Oracle",
