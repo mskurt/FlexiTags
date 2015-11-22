@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlexiTags">
+        <attr name="tagBackground" format="reference" />
+        <attr name="tagIcon" format="reference" />
+        <attr name="tagIconSize" format="dimension" />
+        <attr name="tagVerticalMargin" format="dimension" />
+        <attr name="tagHorizontalMargin" format="dimension" />
+        <attr name="tagPadding" format="dimension" />
+        <attr name="tagMarginBetweenTextAndIcon" format="dimension" />
+        <attr name="tagTextSize" format="dimension" />
+        <attr name="tagTextColor" format="color" />
+        <attr name="tagTextStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="tagTextTypeface" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="sansserif" value="1"/>
+            <enum name="monospace" value="2"/>
+        </attr>
+        <attr name="tags" format="reference" />
+    </declare-styleable>
+</resources>

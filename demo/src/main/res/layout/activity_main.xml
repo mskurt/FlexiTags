@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <net.mskurt.flexitagslibrary.FlexiTags
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/flexitags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            custom:tagIconSize="12dp"
+            custom:tagPadding="10dp"
+            custom:tagMarginBetweenTextAndIcon="10dp"
+            custom:tagVerticalMargin="4dp"
+            custom:tagHorizontalMargin="4dp"
+            custom:tagIcon="@drawable/hashtag_icon"
+            custom:tagTextSize="6sp"
+            custom:tagTextColor="#000000"
+            custom:tagBackground="@drawable/tag_selector"/>
+
+
+</RelativeLayout>
