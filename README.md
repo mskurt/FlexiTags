@@ -180,6 +180,8 @@ FlexiTags is fully customizable. You can use below feature list.
 ## Developed By
 Sedat Kurt - www.mskurt.net - sedat@4pps.co
 
+## [Licence](/LICENCE.md)
+
     Copyright 2015 Sedat Kurt.
     
     Licensed under the Apache License, Version 2.0 (the "License");
